@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Alex Motor - Produk</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Alex Motor</h1>
+    <p>Sparepart Motor Berkualitas</p>
+  </header>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="transaksi.html">Transaksi</a>
+      <a href="invoice.html">Invoice</a>
+      <a href="kontak.html">Kontak</a>
+      <a href="tentang.html">Tentang</a>
+    </nav>
+
+  <marquee>🔥 Promo Gila! Diskon hingga 30% untuk pembelian bulan ini! 🔥</marquee>
+
+  <div class="grid-container">
+    <!-- Sidebar Kiri -->
+    <aside class="sidebar kiri">
+      <h3>Kategori</h3>
+      <ul>
+        <li>Oli</li>
+        <li>Aki</li>
+        <li>Busi</li>
+        <li>Kampas Rem</li>
+        <li>Lampu Motor</li>
+      </ul>
+    </aside>
+
+    <!-- Konten Utama -->
+    <main class="konten">
+      <h2>Daftar Produk</h2>
+      <div class="produk-card">
+        <img src="images.jpeg" alt="Oli Motor" />
+        <h4>Oli Motor</h4>
+        <p>Harga: Rp50.000</p>
+        <button onclick="window.location.href='transaksi.html?produk=Oli Motor&harga=50000'">Pesan</button>
+      </div>
+
+      <div class="produk-card">
+        <img src="jenis-busi-standar-untuk-motor.jpg" alt="Busi Motor" />
+        <h4>Busi Motor</h4>
+        <p>Harga: Rp20.000</p>
+        <button onclick="window.location.href='transaksi.html?produk=Busi Motor&harga=20000'">Pesan</button>
+      </div>
+
+      <!-- Tambah produk lainnya di sini -->
+    </main>
+
+    <!-- Sidebar Kanan -->
+    <aside class="sidebar kanan">
+      <h3>Info Toko</h3>
+      <p><strong>Alamat:</strong><br>Jl. Motor Sejahtera No. 88<br>Bandung</p>
+      <p><strong>Jam Buka:</strong><br>Senin - Sabtu<br>08.00 - 17.00</p>
+    </aside>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Alex Motor</p>
+  </footer>
+</body>
+</html>

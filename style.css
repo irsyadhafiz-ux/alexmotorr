@@ -1,0 +1,367 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f0f4f7;
+    color: #333;
+  }
+  
+  header {
+    background-color: #075B5E;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  nav {
+    background-color: #008B8B;
+    padding: 10px;
+    text-align: center;
+  }
+  nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  marquee {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #f0e68c;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .konten {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .produk-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #fafafa;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  .produk-card img {
+    max-width: 100%;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+  .produk-card h4 {
+    margin: 10px 0 5px;
+  }
+  .produk-card button {
+    background-color: #075B5E;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .produk-card button:hover {
+    background-color: #056062;
+  }
+  
+  footer {
+    background-color: #075B5E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  .kontak-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .kontak-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .foto-profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #075B5E;
+  }
+  
+  .kontak-card h2 {
+    margin: 10px 0 5px;
+    color: #075B5E;
+  }
+  
+  .kontak-card p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .sosmed {
+    margin-top: 20px;
+  }
+  .sosmed a {
+    display: inline-block;
+    margin: 5px 10px;
+    text-decoration: none;
+    background-color: #075B5E;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  .sosmed a:hover {
+    background-color: #056062;
+  }
+  nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 6px;
+  }
+  nav a:hover,
+  nav a.active {
+    background-color: #056062;
+    transition: 0.3s;
+  }
+  .transaksi-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .transaksi-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .transaksi-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #075B5E;
+  }
+  
+  .transaksi-card label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .transaksi-card input,
+  .transaksi-card textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .transaksi-card button {
+    background-color: #075B5E;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .transaksi-card button:hover {
+    background-color: #056062;
+  }
+  .tentang-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  .tentang-card {
+    background-color: #ffffff;
+    padding: 30px;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+  .tentang-card h2 {
+    color: #075B5E;
+    margin-top: 0;
+  }
+  
+  .tentang-card p {
+    margin: 15px 0;
+    line-height: 1.6;
+  }
+  
+  .tentang-card ul {
+    padding-left: 20px;
+  }
+  
+  .tentang-card li {
+    margin-bottom: 10px;
+  }
+  
+  .foto-tentang {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .kontak-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+  }
+  
+  .kontak-card, .map-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .kontak-card {
+    text-align: center;
+  }
+  
+  .foto-profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #075B5E;
+    margin-bottom: 15px;
+  }
+  
+  .kontak-card h2 {
+    color: #075B5E;
+    margin-bottom: 5px;
+  }
+  
+  .kontak-card p {
+    margin: 6px 0;
+    font-size: 15px;
+  }
+  
+  .sosmed {
+    margin-top: 15px;
+  }
+  
+  .sosmed a {
+    display: inline-block;
+    margin: 6px 8px;
+    background-color: #075B5E;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .sosmed a:hover {
+    background-color: #056062;
+  }
+  
+  .map-card h3 {
+    margin-top: 0;
+    color: #075B5E;
+  }
+  .invoice-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  
+  .invoice-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  
+  .invoice-card h2 {
+    text-align: center;
+    color: #075B5E;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-card button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #075B5E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .invoice-card button:hover {
+    background-color: #056062;
+  }
+  
+  .invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .invoice-table td {
+    padding: 10px 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  .invoice-table tr:last-child td {
+    border-bottom: none;
+  }
+  

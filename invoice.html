@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Invoice - Alex Motor</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body onload="tampilkanInvoice()">
+  <header>
+    <h1>Invoice Pembelian</h1>
+    <p>Terima kasih atas pemesanan Anda</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="transaksi.html">Transaksi</a>
+    <a href="invoice.html" class="active">Invoice</a>
+    <a href="kontak.html">Kontak</a>
+    <a href="tentang.html">Tentang</a>
+  </nav>
+
+  <main class="invoice-container">
+    <div class="invoice-card">
+      <h2>Detail Transaksi</h2>
+      <div id="hasilInvoice">
+        <!-- Data dari transaksi akan tampil di sini -->
+      </div>
+      <button onclick="window.print()">🖨 Cetak Invoice</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Alex Motor</p>
+  </footer>
+</body>
+</html>
